@@ -1,20 +1,13 @@
+
+
 // TODO: Create an array of questions for user input
-inquirer
-.prompt([
-    {
-        type: 'input',
-        message: "Describe the steps required for installation.",
-        name: 'installation'
-    },
+const questions =([
+    
     {   type:'input',
         message: "What is the test process for this project?",
         name: "test"
     },
-    {
-        type: 'list',
-        message: "What kind of licence should you project use?",
-        name: 'license'
-    },
+    
     {
         type: 'input',
         message: 'What is your Github user name?',
@@ -26,8 +19,21 @@ inquirer
         name: 'email',
     },
     {
-        type: 'password',
-        message: 'Re-enter password to confirm:',
-        name: 'confirm',
+        type: "list",
+        message: "What kind of license should your project have?",
+        choices: ["MIT","Apache 2.0","GPL 3.0","BSD 3","None"],
+        name: "license"
+    },
+    {
+        type: "input",
+        message: "What is your project's name?",
+        name: "title"
+    },
+    {
+        type: 'input',
+        message: "Describe the steps required for installation.",
+        name: 'installation'
     },
 ])
+
+module.exports = questions;

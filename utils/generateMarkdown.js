@@ -40,7 +40,7 @@ function renderLicenseLink(licenseType) {
 // If there is no license, return an empty string
 function renderLicenseSection(licenseType) {
   if (licenseType) {
-    return `This application is covered under the ${license} license.`;
+    return `This application is covered under the ${licenseType} license.`;
   } else {
     return "";
   }
