@@ -27,7 +27,7 @@ function renderLicenseLink(licenseType) {
     return `[This application is licensed under MIT](https://opensource.org/licenses/MIT)`;
   } else if (licenseType === 'Apache License 2.0') {
     return `[This application is licensed under Apache]((https://opensource.org/licenses/Apache-2.0))`;
-  } else if (licenseType === 'GPL') {
+  } else if (licenseType === 'GPL 3.0') {
     return `[This application is licensed under GPL](https://www.gnu.org/licenses/gpl-3.0)`;
   } else if (licenseType === 'BSD 3') {
     return `[This application is licensed under BSD](https://opensource.org/licenses/BSD-3-Clause)`;

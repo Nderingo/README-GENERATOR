@@ -6,6 +6,16 @@ const generateMarkdown= require('./utils/generateMarkdown');
 const markdown = require('./utils/generateMarkdown');
 
 
+// Function to write README file
+const writeToFile = (data) => {
+    fs.writeFileSync(
+        "./output/README.md", // file name
+        data, // content to write
+        (err) => 
+        err ? console.error(err) : console.log('Generating Readme...') //call back function
+      );
+}
+
 // TODO: Create a function to initialize app
 // Function to initialize app
 const init = () => {
