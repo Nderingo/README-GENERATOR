@@ -1,7 +1,8 @@
+## Assets  
 
-![Example of Node.js](./output/images/readme.png.png)
+![Example of Node.js.](./output/images/readme.png.png)
 
-![Example of readme.js](./output/images/readmefile.png.png)
+![Example of readme.js.](./output/images/readmefile.png.png)
 
 https://drive.google.com/file/d/1eaFT_R0nHwO4jFEMiE20-Hl5PMWWVnlj/view
 
